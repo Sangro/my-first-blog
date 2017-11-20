@@ -25,7 +25,10 @@ SECRET_KEY = 'pwkaouz7w^z-l=8t@r=1ll-7mrf84l9!)&17s0@pco2h&#e^ol'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["sangro.pythonanywhere.com"]
+ALLOWED_HOSTS = [
+    "sangro.pythonanywhere.com",
+    '127.0.0.1',
+]
 
 
 # Application definition
